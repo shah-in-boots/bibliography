@@ -9,4 +9,12 @@
 #
 # Author: Anish S. Shah, MD | MS
 
-sed -i "s/computer_program/manual/g" *.bib
+# Software fix
+sed -i '' 's/computer_program/manual/g' *.bib;
+
+# Book sections
+sed -i '' 's/book_section/inbook/g' *.bib;
+
+# Articles
+sed -i '' 's/newspaper_article/article/g' *.bib;
+sed -i '' 's/magazine_article/article/g' *.bib;
