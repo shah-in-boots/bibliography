@@ -18,3 +18,6 @@ sed -i '' 's/book_section/inbook/g' *.bib;
 # Articles
 sed -i '' 's/newspaper_article/article/g' *.bib;
 sed -i '' 's/magazine_article/article/g' *.bib;
+
+# Websites
+sed -i '' 's/web_page/techreport/g' *.bib;
