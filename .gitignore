@@ -1,2 +1,4 @@
 *.bib
+# The CV build fetches this one from GitHub, so it stays tracked.
+!publications.bib
 *.DS_Store
